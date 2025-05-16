@@ -1,20 +1,16 @@
-// Online C++ compiler to run C++ program online
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
-    double radius,area;
-    const double PI=3.1468;
-    // Write C++ code here
-    cout << "Enter the radius of the circle:"<<endl;
-    cin>>radius;
-    area=PI*radius*radius;
-    cout<<"the area of the circle is:"<<endl<<area<<endl;
+
+int main()
+{
+    int a, b, c;
+    cout << "Enter any three big numbers fasttt" << endl;
+    cin >> a >> b >> c;
+
+    // Using nested ternary operators to determine the greatest number
+    int greatest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+
+    cout << "The greatest number is " << greatest << endl;
 
     return 0;
-    
-    
-    
 }
-
-
-
